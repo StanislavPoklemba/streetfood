@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.streetfood-festival.eu)",
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:sk.pinterest.com)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:imgur.com)",
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\" -Force)",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\stano\\\\Downloads\\\\sf.jpg\" \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\\\\sf.jpg\" -Force)",
+      "PowerShell(\"OK\")",
+      "PowerShell($file = Get-Item \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\\\\skewers.jpg\"; \"$\\($file.Length / 1MB\\) MB\")",
+      "Bash(cp \"C:/Users/stano/Downloads/salmon1.jpg\" \"C:/Users/stano/Desktop/streetfood/src/assets/salmon1.jpg\")",
+      "Bash(ls \"C:\\\\Users\\\\stano\\\\Desktop\\\\sf_imgaes\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\\\\gallery\" && cp \"C:\\\\Users\\\\stano\\\\Desktop\\\\sf_imgaes\\\\\"* \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\\\\gallery\\\\\" && ls \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\\\\gallery\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "PowerShell(netstat -ano)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__computer",
+      "Bash(npm run *)",
+      "Bash(cp \"C:\\\\Users\\\\stano\\\\Downloads\\\\sf_people.jpg\" \"C:\\\\Users\\\\stano\\\\Desktop\\\\streetfood\\\\public\\\\sf_people.jpg\")",
+      "mcp__Claude_in_Chrome__browser_batch"
+    ]
+  }
+}
